@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "next": "14.1.4",
     "react": "^18",
@@ -21,5 +22,19 @@
     "eslint": "^8",
     "eslint-config-next": "14.1.4",
     "typescript": "^5"
-  }
+  },
+  "photos": [
+    {
+      "id": 1,
+      "sol": 1000,
+      "camera": {
+        "id": 1,
+        "name": "FHAZ",
+        "rover_id": 1,
+        "full_name": "Front Hazard Avoidance Camera"
+      },
+      "img_src": "https://mars.nasa.gov/system/news_items/main_images/9925_PIA27712-Figure1.jpg",
+      "earth_date": "2022-08-14"
+    }
+  ]
 }

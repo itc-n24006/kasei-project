@@ -1,0 +1,11 @@
+.Home {
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center; /* 縦方向の中央揃え */
+  text-align: center; /* テキストを中央揃え */
+  background: url("https://www.nasa.gov/sites/default/files/thumbnails/nasa_space_background.jpg")
+    no-repeat center center fixed; /* 宇宙の背景画像 */
+  background-size: cover; /* 画面いっぱいに背景画像を広げる */
+  color: white; /* 文字色を白にして見やすく */
+  height: 100vh; /* ビューポートの高さに合わせる */
+  position: relative;
+}
